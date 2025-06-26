@@ -6,13 +6,13 @@
 }
 
 body {
-  background-color: #fff5f7; /* very light blush */
-  color: #403233; /* soft dark brown */
+  background-color: #fff5f7; 
+  color: #403233; 
   line-height: 1.6;
 }
 
 header {
-  background-color: #f7cdd0; /* pastel rose pink */
+  background-color: #f7cdd0; 
   color: #403233;
   padding: 3rem 1rem;
   text-align: center;
@@ -21,20 +21,20 @@ header {
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #822727; /* warm wine pink */
+  color: #822727; 
 }
 
 header p {
   font-size: 1.2rem;
-  color: #5c4447; /* soft dusty rose */
+  color: #5c4447; 
 }
 
 .btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.7rem 1.2rem;
-  background-color: #ffe5ec; /* light pink */
-  color: #d14d72; /* raspberry pink */
+  background-color: #ffe5ec; 
+  color: #d14d72; 
   border: none;
   text-decoration: none;
   font-weight: bold;
@@ -43,7 +43,7 @@ header p {
 }
 
 .btn:hover {
-  background-color: #fbb8c2; /* coral blush */
+  background-color: #fbb8c2; 
   color: #403233;
 }
 
@@ -54,9 +54,9 @@ section {
 }
 
 #projects .project {
-  background-color: #fff0f3; /* soft pink card */
+  background-color: #fff0f3; 
   padding: 1rem;
-  border-left: 5px solid #e5a4b4; /* dusty rose stripe */
+  border-left: 5px solid #e5a4b4; 
   margin-bottom: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(240, 182, 198, 0.3);
