@@ -1,39 +1,24 @@
 import streamlit as st
+ 
 
-import requests
+cols = st.columns([1,3,1])
+st.set_page_config(page_title="Task Manager", layout="wide")
+with cols[1]:
+    st.write('')
+    st.write('')
+    st.write('')
+    st.write('')
+    st.write('')
+    st.write('')
+    st.header('Welcome to task manager app!')
+    st.markdown("""
+    
+    ✅ Track time  
+    📁 Manage projects  
+    👥 Collaborate with your team  
+    📊 Analyze productivity  
+    """)
+    st.info("Use the sidebar to navigate through the app!")
 
-st.set_page_config(
-    page_title='task manager',
-    page_icon= "🗂️"
-)
 
-st.title('TASK MANAGER')
-theme = st.selectbox("Theme",['light','dark'])
-if theme == 'dark':
-    st.markdown(
-        """
-        <style>
-            body {
-                background-color: #0E1117;
-                color: #FAFAFA;
-            }
-            .stApp {
-                background-color: #0E1117;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-else:
-    st.markdown(
-        """
-        <style>
-            .stApp {
-                background-color: #F5F5DC;
-                color: #000000;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-st.html("<p>hiiiiiiii</p>")
+
